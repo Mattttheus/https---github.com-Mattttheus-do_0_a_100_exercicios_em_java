@@ -4,7 +4,8 @@ public class Declaracoes {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	@SuppressWarnings("unused")
+    public static void main(String[] args) {
         // [ ] - s�o inseridos em uma vari�vel que referecia um array
         int[] numeros = new int [4];
         // OUTRA MANEIRA DE FAZER UMA DECLARA��O DE ARRAY

@@ -1,4 +1,4 @@
-package TrabalhandoArray;
+package 	TrabalhandoArray;
 
 import javax.swing.JOptionPane;
 
@@ -11,9 +11,9 @@ public class TrabalhandoArray {
 		// inicializando o array
 		paises[0] = "Brasil";
 		paises[1] = "Alemanha";
-		paises[2] = "Itália";
-		paises[3] = "Áustria";
-		paises[4] = "Polônia";
+		paises[2] = "Itï¿½lia";
+		paises[3] = "ï¿½ustria";
+		paises[4] = "Polï¿½nia";
 
 		for (String lista: paises) {
 			System.out.println(lista);
@@ -22,16 +22,16 @@ public class TrabalhandoArray {
 		int [] numeros = new int [10];
 		
 		for (int i = 0; i < numeros.length; i++) {
-			numeros[i] = Integer.parseInt(JOptionPane.showInputDialog("Informe um número"));
+			numeros[i] = Integer.parseInt(JOptionPane.showInputDialog("Informe um nï¿½mero"));
 		}
 		// listando os valores do array com um ForEach
-		System.out.println("Após a entrada de dados");
+		System.out.println("Apï¿½s a entrada de dados");
 		for (int listaNumeros : numeros) {
 			System.out.print(listaNumeros + " ");
 		}
 		// calculando os valores para armazenar no array
 		numeros[8] = numeros[7] + 4;
-		System.out.println("\nApós a alteração do valor na posição 8");
+		System.out.println("\nApï¿½s a alteraï¿½ï¿½o do valor na posiï¿½ï¿½o 8");
 		// listando os valores do array com um ForEach
 		for (int listaNumeros : numeros) {
 			System.out.print(listaNumeros + " ");

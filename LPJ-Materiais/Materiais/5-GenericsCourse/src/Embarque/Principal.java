@@ -1,31 +1,23 @@
 package Embarque;
 import java.util.Scanner;
-
-import Controle.Aeronaves;
-
+import Embarque.Aeronaves;
 /*
- * Informar a quantidade de aeronaves no pátio, o nr dos vôos por ordem de chegada. 
- * A ordem de decolagem é FIFO, o primeiro que entra é o primeiro que sai. 
- * Mostrar qual o primeiro vôo á decolar
+ * Informar a quantidade de aeronaves no pï¿½tio, o nr dos vï¿½os por ordem de chegada. 
+ * A ordem de decolagem ï¿½ FIFO, o primeiro que entra ï¿½ o primeiro que sai. 
+ * Mostrar qual o primeiro vï¿½o ï¿½ decolar
  */
 public class Principal {
 
+	/**
+	 * @param args
+	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in) ;
+		new Scanner(System.in);
 		
-		Aeronaves air = new Aeronaves();
-		System.out.println("Informe o nr de aeronaves");
-		int nrAeronaves = sc.nextInt();
-		
-		// adicionando voos
-		for (int i = 0; i < nrAeronaves; i++) {
-			int nrVoo = sc.nextInt();
-			air.addVoo(nrVoo);	
-		}
-		System.out.println("O primeiro a decolar vai ser o nr : " + air.primeiroVoo());
-		air.listaVoos();
-		sc.close();
-		
+		final Aeronaves air ;
+	  
 	}
-
 }
+
+
