@@ -1,9 +1,7 @@
-
 package construtores;
-
 /**
  *
- * @author theus
+ * @author Engº Matheus Vinicius 
  */
 public class alunos {
 
@@ -12,6 +10,7 @@ public class alunos {
  private double nota3;
  private double nota4;
  STATUS situacaoAluno;
+ Matricula StuacaoMatricula;
 
   public alunos (double nota1,double nota2,double nota3,double nota4){
 
@@ -22,20 +21,27 @@ this.nota4 = nota4;
   }
   
   public enum STATUS{
- 
-   Aprovados,
+
+  Aprovados,
   Reprovado 
+
   }
-    
+  public enum Matricula{
+
+    Matriculado,
+    Pendente,
+    Recusado
+
+  }
     public double media(){
    
-   double mediaAluno =0;
+    double mediaAluno =0;
 
     mediaAluno = (this.nota1 +this.nota2 +this.nota3+this.nota4)/4;
     
     return mediaAluno;
   
-}
+ }
 
 }
 

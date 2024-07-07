@@ -11,7 +11,7 @@ package laco_for_while;
 public class While {
 
     /**
-     * @param args the command line arguments
+     * @autor Engº Matheus
      */
     public static void main(String[] args) {
 
@@ -21,7 +21,6 @@ public class While {
           System.out.println(i);
       i++;
 }
-  // TODO code application logic here
     }
     
 }

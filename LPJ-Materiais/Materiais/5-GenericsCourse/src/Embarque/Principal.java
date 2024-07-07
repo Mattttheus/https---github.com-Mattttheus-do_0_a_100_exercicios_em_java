@@ -1,11 +1,8 @@
 package Embarque;
+
 import java.util.Scanner;
 import Embarque.Aeronaves;
-/*
- * Informar a quantidade de aeronaves no p�tio, o nr dos v�os por ordem de chegada. 
- * A ordem de decolagem � FIFO, o primeiro que entra � o primeiro que sai. 
- * Mostrar qual o primeiro v�o � decolar
- */
+
 public class Principal {
 
 	/**
@@ -14,10 +11,21 @@ public class Principal {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		new Scanner(System.in);
-		
-		final Aeronaves air ;
-	  
+	Aeronaves air = new Embarque.Aeronaves() {
+		public void addVoo(Integer nrVoo) {}
+
+		@Override
+		public Integer primeiroVoo() {
+			// TODO Auto-generated method stub
+			throw new UnsupportedOperationException("Unimplemented method 'primeiroVoo'");
+		}
+
+		@Override
+		public void listaVoos() {
+			// TODO Auto-generated method stub
+			throw new UnsupportedOperationException("Unimplemented method 'listaVoos'");
+		};
+
+	} 
 	}
 }
-
-

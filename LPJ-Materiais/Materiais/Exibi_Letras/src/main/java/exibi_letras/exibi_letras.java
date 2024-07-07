@@ -1,10 +1,10 @@
 
 package exibi_letras;
 import java.util.Scanner;
-public class main {
+public class exibi_letras {
 
-  
-    public static void main(String[] args) {
+    public static void exibi_letras  (String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite uma Palavra");
          String Palavra = scanner.nextLine();
@@ -18,6 +18,5 @@ for (int i = 0 ; i < Palavra.length(); i++ ){
 scanner.close();
 
     }
-
 
 }

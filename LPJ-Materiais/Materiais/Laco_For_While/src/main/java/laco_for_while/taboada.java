@@ -4,10 +4,9 @@ import java.util.Scanner;
 public class taboada {
 
     /**
-     * @param args the command line arguments
+     * @autor Engº Matheus
      */
     public static void main(String[] args) {
-        // TODO code application logic here
            Scanner scanner = new Scanner(System.in);
 
         System.out.println("Qual e taboada Quer Ver ");

@@ -11,7 +11,7 @@ package laco_for_while;
 public class Contagem {
 
     /**
-     * @param args the command line arguments
+     * @autor Engº Matheus
      */
     public static void main(String[] args) {
 
@@ -20,7 +20,6 @@ public class Contagem {
          System.out.println(i);
 
 }
-        // TODO code application logic here
     }
     
 }

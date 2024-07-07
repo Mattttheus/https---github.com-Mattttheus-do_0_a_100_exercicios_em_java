@@ -6,7 +6,7 @@ package laco_for_while;
 
 /**
  *
- * @author theus
+ * @author Engº Matheus
  */
 public class while_100 {
 
@@ -14,7 +14,7 @@ public class while_100 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+   
 int i = 1;
 while(i<=100){
 

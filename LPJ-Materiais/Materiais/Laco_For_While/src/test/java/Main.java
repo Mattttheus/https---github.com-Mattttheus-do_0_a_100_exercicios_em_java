@@ -2,10 +2,9 @@
 public class Main {
 
     /**
-     * @param args the command line arguments
+     * @author Engº Matheus 
      */
     public static void main(String[] args) {
-        // TODO code application logic here
       int soma = 0;
 
 for(int i =2;i<=100;i +=2 ){

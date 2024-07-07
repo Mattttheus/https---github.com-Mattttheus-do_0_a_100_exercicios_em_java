@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class main {
 
- public static void  main(String[] args){
-   Scanner scanner = new Scanner(System.in);
+ public static void  calculo_de_velocidade_media(String[] args){
+   Scanner imput  = new Scanner(System.in);
 
   System.out.println("Digite o espaço ");
-   double variacaoEspaco = scanner.nextDouble();
+   double variacaoEspaco = imput.nextDouble();
   System.out.println("Digite o espaço ");
-   double variacaoTempo = scanner.nextDouble();
+   double variacaoTempo = imput.nextDouble();
  
 double VelocidadeMedia = variacaoTempo/variacaoEspaco;
 

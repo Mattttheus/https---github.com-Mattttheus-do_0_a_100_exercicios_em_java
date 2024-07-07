@@ -6,7 +6,7 @@ package laco_for_while;
 
 /**
  *
- * @author theus
+ * @author Engº Matheus
  */
 public class NewMain2 {
 
@@ -14,8 +14,8 @@ public class NewMain2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-System.out.println("Numeros Pares");
+
+      System.out.println("Numeros Pares");
 
 int i =1;
 
