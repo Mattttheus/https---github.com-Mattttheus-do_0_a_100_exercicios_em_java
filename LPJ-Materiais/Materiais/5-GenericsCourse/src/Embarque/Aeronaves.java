@@ -1,11 +1,8 @@
 package Embarque;
-
 public interface Aeronaves {
 
-    void addVoo(Integer nrVoo);
-
-    Integer primeiroVoo();
-
-    void listaVoos();
+   public void addVoo(Integer nrVoo);
+    public void primeiroVoo();
+    public void listaVoos();
 
 }

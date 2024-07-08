@@ -6,7 +6,9 @@ import java.util.Scanner;
 public class main {
 
  public static void  calculo_de_velocidade_media(String[] args){
-   Scanner imput  = new Scanner(System.in);
+
+   @SuppressWarnings("resource")
+  Scanner imput  = new Scanner(System.in);
 
   System.out.println("Digite o espaço ");
    double variacaoEspaco = imput.nextDouble();

@@ -1,31 +1,15 @@
 package Embarque;
 
-import java.util.Scanner;
 import Embarque.Aeronaves;
-
 public class Principal {
 
 	/**
-	 * @param args
+	 * @Autor Engº Matheus Vinicius 
 	 */
-	@SuppressWarnings("resource")
-	public static void main(String[] args) {
-		new Scanner(System.in);
-	Aeronaves air = new Embarque.Aeronaves() {
-		public void addVoo(Integer nrVoo) {}
+	public static void  main(String[] args) {
+    
 
-		@Override
-		public Integer primeiroVoo() {
-			// TODO Auto-generated method stub
-			throw new UnsupportedOperationException("Unimplemented method 'primeiroVoo'");
-		}
-
-		@Override
-		public void listaVoos() {
-			// TODO Auto-generated method stub
-			throw new UnsupportedOperationException("Unimplemented method 'listaVoos'");
-		};
-
-	} 
+		
 	}
 }
+
