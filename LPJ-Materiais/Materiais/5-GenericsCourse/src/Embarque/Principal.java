@@ -1,6 +1,5 @@
 package Embarque;
 
-import Embarque.Aeronaves;
 public class Principal {
 
 	/**
