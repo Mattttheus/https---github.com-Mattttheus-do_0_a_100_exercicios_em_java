@@ -34,7 +34,17 @@ paises [i] = JOptionPane.showInputDialog("Informe um pais ");
      for(Integer lista :numeros){
 
    System.out.println(lista);
+   
    }
+
+    int NovoValor =11;
+    numeros[8] = NovoValor + 4;
+
+    
+    for(Integer lista :numeros){
+
+        System.out.println(lista);
+     }
           
       }
 
