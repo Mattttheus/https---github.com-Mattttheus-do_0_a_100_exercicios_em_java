@@ -1,9 +1,10 @@
 package AulaAnnotation;
 
 @AnnotationInformacao (
-		autor = "Marcio Schoenfelder",
+		autor = "Marcio Schoenfelder";
+
 		aulaEADNumero = 2,
-		website = "https://www.proway.com.br"
+		website = "https://www.proway.com.br";
 		)
 public class TesteAnnotation {
 

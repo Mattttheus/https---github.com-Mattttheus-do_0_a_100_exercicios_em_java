@@ -21,7 +21,8 @@ public class App {
 
         System.out.println("A soma dos Elementos é  " + soma);
 
+     
+        
         input.close();
-
     }
 }
