@@ -2,10 +2,13 @@
 public  class Declaracoes {
 
 	/**
+	 * @param <String>
 	 * @param args
      * 
      * 
 	 */
+    public static <String> void main(String[] args) {
+
         int[] numeros = new int [4];        
         int[] numeros2 = new int[10] ;  
         int[] numeros3 = new int[44], numeros4 = new int[23];
@@ -15,10 +18,6 @@ public  class Declaracoes {
 
 
         int[] meuArray;
-
-        public int[] getMeuArray() {
-            return meuArray;
-  
 
    
         meuArray = new int[10];
@@ -36,9 +35,6 @@ public  class Declaracoes {
         meuArray [10] = 564; 
 
     }
- public void setNumeros(int[] numeros) {
-     this.numeros = numeros;
- }
          
-
+ 
 }

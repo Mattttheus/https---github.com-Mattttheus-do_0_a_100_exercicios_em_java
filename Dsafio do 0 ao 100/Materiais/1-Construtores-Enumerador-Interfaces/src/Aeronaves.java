@@ -1,7 +1,7 @@
 import Construtores.Integer;
 import Construtores.List;
 
-public interface Aeronaves {
+public interface Aeronaves<Integer> {
 
     void addVoo(Integer nrVoo);
 
