@@ -26,5 +26,6 @@ if (EstaEnOrdemCrecente){
 }else{
     System.out.println("Não Esta em ordem crecente ");
 }
+input.close();
  }   
 }
