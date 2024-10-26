@@ -5,7 +5,7 @@ public class Principal {
 	/**
 	 * @Autor Engº Matheus Vinicius 
 	 */
-	public static void  main(String[] args) {
+	public static void  main(Integer[] args) {
     
 
 		
